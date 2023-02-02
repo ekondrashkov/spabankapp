@@ -1,0 +1,1338 @@
+@import '_variables.scss';
+
+@media (max-width: 1399.98px) {
+  .counts {
+    &__list {
+      row-gap: 32px;
+      column-gap: 32px;
+    }
+
+    &__item {
+      width: calc((100% - 64px) /3) ;
+    }
+  }
+
+  .details {
+    &__chart-bar-list {
+      padding: 0 25px;
+      column-gap: 20px;
+    }
+
+    &__chart-month-list {
+      padding: 0 25px;
+    }
+
+    &__chart-value {
+      width: calc((100% - 25px * 5) /6);
+      font-size: 16px;
+      line-height: 18px;
+      text-align: center;
+    }
+  }
+
+  .trans {
+    &__chart-bar-list,
+    &__inout-bar-list {
+      padding: 0 25px;
+      column-gap: 20px;
+    }
+
+    &__chart-month-list,
+    &__inout-month-list {
+      padding: 0 25px;
+    }
+  }
+
+  .skeleton {
+    &__account-bottom {
+      column-gap: 32px;
+      row-gap: 32px;
+    }
+
+    &__account-card {
+      width: calc((100% - 64px) /3);
+    }
+  }
+}
+
+@media (max-width: 1279.98px) {
+  .title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .skeleton {
+    &__account-top {
+      padding-top: 32px;
+      margin-bottom: 32px;
+      width: 100%;
+      height: 82px;
+    }
+
+    &__title {
+      width: 160px;
+    }
+
+    &__account-card {
+      width: calc((100% - 32px) /2);
+    }
+
+    &__trans-middle {
+      margin-bottom: 32px;
+    }
+
+    &__currency-top {
+      padding-top: 32px;
+      margin-bottom: 32px;
+      height: 66px;
+    }
+
+    &__currency-bottom {
+      gap: 32px;
+    }
+  }
+
+  .counts {
+    &__control {
+      padding-top: 32px;
+      padding-bottom: 32px;
+      align-items: center;
+    }
+
+    &__choice-wrapper {
+      align-items: center;
+    }
+
+    &__choice-title {
+      margin-right: 24px;
+    }
+
+    &__list {
+      row-gap: 32px;
+      column-gap: 32px;
+    }
+
+    &__item {
+      width: calc((100% - 32px) /2) ;
+    }
+  }
+
+  .details {
+    &__top {
+      padding-top: 32px;
+    }
+
+    &__count-num {
+      font-size: 28px;
+      line-height: 34px;
+    }
+
+    &__middle {
+      padding-top: 16px;
+      padding-bottom: 32px;
+    }
+
+    &__bottom {
+      gap: 32px;
+    }
+
+    &__new-trans {
+      padding: 25px 30px;
+    }
+
+    &__input {
+      min-width: 280px;
+      width: 280px;
+    }
+
+    &__input-label {
+      margin-right: 8px;
+    }
+
+    &__input-arrow {
+      right: 16px;
+    }
+
+    &__chart-wrapper {
+      padding: 25px 30px 20px;
+    }
+
+    &__chart-graph {
+      column-gap: 16px;
+    }
+
+    &__chart-value-y-max,
+    &__chart-value-y-min {
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+    &__chart-value {
+      width: calc((100% - 16px * 5) /6);
+      font-size: 16px;
+      line-height: 18px;
+      text-align: center;
+    }
+
+    &__chart-bar-list {
+      padding: 0 16px;
+      column-gap: 16px;
+    }
+
+    &__chart-month-list {
+      padding: 0 16px;
+    }
+
+    &__table-header-cell,
+    &__table-body-cell {
+      padding: 20px 25px;
+    }
+
+    &__title-small {
+      margin-bottom: 16px;
+    }
+
+    &__error-message-icon {
+      right: -26px;
+    }
+
+    &__error-message {
+      width: 280px;
+    }
+
+    &__new-trans-btn-wrapper {
+      margin-right: 116px;
+    }
+
+    &__balance-title {
+      margin-right: 32px;
+    }
+
+    &__story {
+      padding: 25px 30px;
+    }
+  }
+
+  .trans {
+    &__top {
+      padding-top: 32px;
+    }
+
+    &__balance-title {
+      margin-right: 32px;
+    }
+
+    &__middle {
+      padding-top: 16px;
+      padding-bottom: 32px;
+    }
+
+    &__count-num {
+      font-size: 28px;
+      line-height: 34px;
+    }
+
+    &__bottom-balance,
+    &__bottom-inout {
+      padding: 25px 50px 20px;
+    }
+
+    &__chart-value-y-max,
+    &__chart-value-y-min,
+    &__inout-value-y-max,
+    &__inout-value-y-min {
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+    &__chart-value,
+    &__inout-value {
+      width: calc((100% - 20px * 11) /12);
+      font-size: 16px;
+      line-height: 18px;
+      text-align: center;
+    }
+
+    &__chart-month-list {
+      padding: 0 25px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__chart-graph,
+    &__inout-graph {
+      column-gap: 16px;
+    }
+
+    &__table-header-cell,
+    &__table-body-cell {
+      padding: 20px 25px;
+    }
+
+    &__title-small {
+      margin-bottom: 16px;
+    }
+  }
+
+  .currency {
+    &__container {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+
+    &__title {
+      margin-bottom: 32px;
+    }
+
+    &__data {
+      gap: 32px;
+    }
+
+    &__mycurrency,
+    &__exchange,
+    &__rate {
+      padding: 25px 30px;
+    }
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .header {
+    &__nav-item:not(:last-child) {
+      margin-right: 16px;
+    }
+  }
+
+  .skeleton {
+    &__account-top {
+      padding-top: 32px;
+      margin-bottom: 32px;
+      width: 100%;
+      height: auto;
+      align-items: flex-end;
+    }
+
+    &__account-top-left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 8px;
+    }
+
+    &__button, &__select, &__title {
+      height: 50px;
+    }
+
+    &__details-top,
+    &__trans-top {
+      margin-bottom: 16px;
+    }
+
+    &__details-middle {
+      margin-bottom: 32px;
+    }
+
+    &__details-bottom {
+      gap: 32px;
+    }
+
+    &__details-bottom-item {
+      grid-column: span 2;
+      border-radius: 15px;
+    }
+
+    &__trans-bottom-item {
+      border-radius: 15px;
+    }
+
+    &__count {
+      width: 320px;
+    }
+
+    &__currency-bottom-item {
+      width: 100%;
+      height: 164px;
+      grid-column: span 2;
+      grid-row: span 1;
+      border-radius: 15px;
+    }
+  }
+
+  .counts {
+    &__control {
+      align-items: flex-end;
+    }
+
+    &__choice-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__choice-title {
+      margin-right: 0;
+      margin-bottom: 8px;
+    }
+
+    &__create-btn {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  }
+
+  .details {
+    &__count-num {
+      font-size: 20px;
+      line-height: 23px;
+    }
+
+    &__new-trans,
+    &__chart-wrapper {
+      padding: 25px 50px;
+      grid-column: span 2;
+      border-radius: 15px;
+    }
+
+    &__story {
+      padding-left: 50px;
+      padding-right: 50px;
+      border-radius: 15px;
+    }
+
+    &__input-wrapper {
+      width: 100%;
+    }
+
+    &__input {
+      width: 50%;
+    }
+
+    &__input-label {
+      margin-right: 18px;
+    }
+
+    &__autocomplete-list {
+      width: 50%;
+    }
+
+    &__new-trans-btn-wrapper {
+      margin-right: 0;
+      justify-content: center;
+    }
+
+    &__new-trans-btn {
+      transform: translateX(50%);
+    }
+
+    &__chart-bar-list {
+      padding: 0 35px;
+      column-gap: 28px;
+    }
+
+    &__table-body-cell {
+      display: none;
+    }
+
+    &__table-body-cell-mob {
+      display: table-cell;
+    }
+
+    &__table-header-cell-mob {
+      display: table-cell;
+    }
+
+    &__table-header-cell {
+      display: none;
+    }
+  }
+
+  .trans{
+    &__bottom-balance,
+    &__bottom-inout,
+    &__bottom-story {
+      border-radius: 15px;
+    }
+
+    &__table-body-cell {
+      display: none;
+    }
+
+    &__table-body-cell-mob {
+      display: table-cell;
+    }
+
+    &__table-header-cell-mob {
+      display: table-cell;
+    }
+
+    &__table-header-cell {
+      display: none;
+    }
+
+    &__chart-bar-list,
+    &__inout-bar-list {
+      padding-left: 16px;
+      padding-right: 16px;
+      column-gap: 12px;
+    }
+
+    &__chart-month-list,
+    &__inout-month-list {
+      padding-left: 12px;
+      padding-right: 12px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      column-gap: 0;
+    }
+
+    &__chart-value,
+    &__inout-value {
+      width: calc(100% /12);
+      font-size: 14px;
+      line-height: 100%;
+    }
+
+    &__chart-value-y-max,
+    &__chart-value-y-min,
+    &__inout-value-y-max,
+    &__inout-value-y-min {
+      font-size: 16px;
+      line-height: 100%;
+    }
+
+    &__count-num {
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+
+  .currency {
+    &__mycurrency,
+    &__rate,
+    &__exchange {
+      grid-column: span 2;
+      grid-row: span 1;
+      border-radius: 15px;
+    }
+
+    &__exchange {
+      order: -1;
+    }
+
+    &__exchange-select {
+      width: 100px;
+    }
+
+    &__exchange-select-list {
+      width: 100px;
+      top: auto;
+      bottom: -2px;
+      transform-origin: top;
+      transform: translateY(100%) scaleY(0%);
+    }
+
+    &__exchange-select-list--open {
+      transform: translateY(100%) scaleY(100%);
+    }
+
+    &__exchange-inputs {
+      width: 100%;
+      flex-wrap: nowrap;
+    }
+
+    &__exchange-select-wrapper,
+    &__exchange-input-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__exchange-input-wrapper {
+      width: 100%;
+    }
+
+    &__exchange-input {
+      width: 100%;
+    }
+
+    &__exchange-select-label,
+    &__exchange-input-label {
+      margin-right: 0;
+      margin-bottom: 4px;
+    }
+
+    &__mycurrency-item:not(:last-child) {
+      margin-bottom: 16px;
+    }
+
+    &__rate-list {
+      row-gap: 16px;
+    }
+
+    &__exchange-select-img {
+      right: 16px;
+    }
+  }
+
+  .atm {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    &__title {
+      margin-bottom: 32px;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .spinner-wrapper {
+    max-width: 326px;
+    width: calc(100% - 32px);
+    height: 232px;
+    border-radius: 15px;
+  }
+
+  .skeleton {
+    &__title {
+      margin-right: 0;
+      max-height: 100%;
+    }
+
+    &__account-top {
+      padding-top: 24px;
+      margin-bottom: 24px;
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__account-top-left {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 8px;
+    }
+
+    &__button, &__select, &__title {
+      height: 50px;
+    }
+
+    &__button, &__select {
+      width: 100%;
+    }
+
+    &__select {
+      margin-bottom: 16px;
+    }
+
+    &__account-bottom {
+      row-gap: 12px;
+    }
+
+    &__account-card {
+      width: 100%;
+    }
+
+    &__details-top,
+    &__trans-top {
+      padding-top: 0;
+      margin-top: -6px;
+      margin-bottom: 16px;
+      height: 36px;
+    }
+
+    &__details-bottom {
+      gap: 16px;
+    }
+
+    &__button-back {
+      width: 36px;
+    }
+
+    &__details-middle,
+    &__trans-middle {
+      margin-bottom: 24px;
+      height: auto;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__balance {
+      width: 150px;
+      height: 20px;
+    }
+
+    &__count {
+      max-width: 100%;
+      margin-bottom: 4px;
+      height: 18px;
+    }
+
+    &__trans-bottom-item:not(:last-child) {
+      margin-bottom: 16px;
+    }
+
+    &__currency-top {
+      padding-top: 24px;
+      margin-bottom: 24px;
+      height: 58px;
+    }
+
+    &__currency-bottom {
+      gap: 16px;
+    }
+
+    &__currency-bottom-item {
+      height: 257px;
+    }
+  }
+
+  .error-wrapper {
+    max-width: 504px;
+    width: calc(100% - 32px);
+    border-radius: 9px;
+  }
+
+  .header {
+    &__container {
+      position: relative;
+    }
+
+    &__logo {
+      margin: 0;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      font-size: 28px;
+      line-height: 100%;
+      z-index: 15;
+    }
+
+    &__burger.header__burger--visible {
+      display: block;
+    }
+
+    &__nav {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      width: 100vw;
+      min-width: 320px;
+      background-color: $blue;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+      z-index: 10;
+      opacity: 0;
+      visibility: hidden;
+      min-height: 0;
+      transform-origin: top;
+      transition: opacity .2s ease-in-out, visibility .2s ease-in-out, min-height .2s ease-in-out;
+    }
+
+    &__nav--visible {
+      opacity: 1;
+      visibility: visible;
+      min-height: 200px;
+    }
+
+    &__nav-item:not(:last-child) {
+      margin-right: 0;
+    }
+
+    &__nav-list {
+      padding: 75px 16px 16px;
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 16px;
+    }
+
+    &__nav-btn {
+      position: relative;
+      padding: 0;
+      border: none;
+      background-color: transparent;
+      color: $white;
+    }
+
+    &__nav-btn::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      height: 2px;
+      width: 100%;
+      background-color: $white;
+      transform: scaleX(0%);
+      transform-origin: left;
+      transition: transform .2s ease-in-out;
+    }
+
+    &__nav-btn:focus::after {
+      transform: scaleX(100%);
+    }
+
+    &__nav-btn:hover::after {
+      transform: scaleX(100%);
+    }
+
+    &__nav-btn:active::after {
+      transform: scaleX(100%);
+    }
+
+    &__nav-btn:focus {
+      background-color: $blue;
+    }
+
+    &__nav-btn:hover {
+      background-color: $blue;
+    }
+
+    &__nav-btn:active {
+      background-color: $blue;
+    }
+  }
+
+  .auth {
+    &__form-wrapper {
+      padding: 16px;
+      border-radius: 15px;
+    }
+
+    &__title {
+      margin-bottom: 24px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 100%;
+    }
+
+    &__input-wrapper {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+
+    &__input {
+      width: 100%;
+    }
+
+    &__input-label {
+      position: relative;
+      margin-bottom: 4px;
+      width: auto;
+      text-align: left;
+      left: 0;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    &__error-message {
+      margin-bottom: 10px;
+      min-height: 14px;
+      font-size: 14px;
+      line-height: 100%;
+    }
+
+    &__error-message-icon {
+      right: 10px;
+      top: 50%;
+      transform: translateY(-4px);
+    }
+  }
+
+  .counts {
+    &__container {
+      padding-bottom: 24px;
+    }
+
+    &__list {
+      gap: 12px;
+    }
+
+    &__item {
+      padding: 16px;
+      width: 100%;
+    }
+
+    &__control {
+      padding-top: 24px;
+      padding-bottom: 24px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__choice-dropdown-wrapper,
+    &__choice-wrapper {
+      width: 100%;
+    }
+
+    &__choice-sort-btn {
+      margin-bottom: 16px;
+      width: 100%;
+    }
+
+    &__create-btn {
+      width: 100%;
+    }
+
+    &__item-btn {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+
+    &__item-number {
+      font-size: 16px;
+      line-height: 100%;
+    }
+  }
+
+  .details {
+    &__top {
+      padding-top: 24px;
+    }
+
+    &__back-btn-text {
+      display: none;
+    }
+
+    &__back-btn-img {
+      margin-right: 0;
+    }
+
+    &__back-btn {
+      padding: 12px;
+      min-width: auto;
+    }
+
+    &__middle {
+      padding-bottom: 24px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__bottom {
+      gap: 16px;
+    }
+
+    &__count-num {
+      margin-bottom: 4px;
+      display: block;
+      font-size: 18px;
+      line-height: 100%;
+      white-space: nowrap;
+    }
+
+    &__balance-title {
+      margin-right: 8px;
+      font-size: 18px;
+      line-height: 100%;
+    }
+
+    &__balance-value {
+      font-size: 18px;
+      line-height: 100%;
+    }
+
+    &__new-trans,
+    &__chart-wrapper,
+    &__story {
+      padding: 16px;
+    }
+
+    &__title-small {
+      margin-bottom: 8px;
+    }
+
+    &__input-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__input {
+      width: 100%;
+      min-width: 0;
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    &__new-trans-btn-wrapper {
+      justify-content: flex-start;
+    }
+
+    &__new-trans-btn {
+      padding: 12px;
+      width: 100%;
+      transform: translateX(0%);
+    }
+
+    &__input-label {
+      margin-right: 0;
+      margin-bottom: 4px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 100%;
+    }
+
+    &__error-message {
+      margin-bottom: 10px;
+      width: 100%;
+      min-height: 14px;
+      font-size: 14px;
+      line-height: 100%;
+    }
+
+    &__error-message-icon {
+      top: 24px;
+      z-index: 5;
+    }
+
+    &__input-arrow {
+      top: 34px;
+    }
+
+    &__autocomplete-list {
+      width: 100%;
+      top: 56px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+
+    &__autocomplete-item {
+      padding: 8px 9px;
+      font-size: 14px;
+      line-height: 100%;
+    }
+
+    &__error-message-icon {
+      right: 9px;
+    }
+
+    &__chart-bar-list {
+      padding: 0 16px;
+      column-gap: 16px;
+    }
+
+    &__chart-value-y-max,
+    &__chart-value-y-min {
+      position: relative;
+      left: 14px;
+      font-size: 14px;
+      line-height: 14px;
+      transform: rotateZ(90deg);
+      transform-origin: top left;
+    }
+
+    &__chart-graph {
+      column-gap: 8px;
+    }
+
+    &__chart-month-list {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    &__chart-value {
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    &__chart-value-y {
+      width: 14px;
+    }
+
+    &__table-header-cell-mob {
+      padding: 8px;
+    }
+
+    &__table-header-cell-mob_left {
+      border-top-left-radius: 7px;
+      border-bottom-left-radius: 7px;
+      font-size: 14px;
+      line-height: 100%;
+      text-align: center;
+    }
+
+    &__table-header-cell-mob_right {
+      border-top-right-radius: 7px;
+      border-bottom-right-radius: 7px;
+      font-size: 14px;
+      line-height: 100%;
+      text-align: center;
+    }
+
+    &__table-body-cell-mob {
+      padding: 8px;
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    &__table-body-cell_count-mob-title,
+    &__table-body-cell_sum-mob-date {
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+
+  .trans {
+    &__top {
+      padding-top: 24px;
+    }
+
+    &__back-btn {
+      padding: 12px;
+      min-width: 0;
+    }
+
+    &__back-btn-text {
+      display: none;
+    }
+
+    &__back-btn-img {
+      margin-right: 0;
+    }
+
+    &__middle {
+      padding-bottom: 24px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__title-small {
+      margin-bottom: 8px;
+    }
+
+    &__count-num {
+      margin-bottom: 4px;
+      display: block;
+      font-size: 18px;
+      line-height: 100%;
+    }
+
+    &__balance-title {
+      margin-right: 8px;
+      font-size: 18px;
+      line-height: 100%;
+    }
+
+    &__balance-value {
+      font-size: 18px;
+      line-height: 100%;
+    }
+
+    &__bottom-balance,
+    &__bottom-inout,
+    &__bottom-story {
+      padding: 16px;
+    }
+
+    &__bottom-balance,
+    &__bottom-inout {
+      margin-bottom: 16px;
+    }
+
+    &__inout-value-y > span:nth-child(2) {
+      display: none;
+    }
+
+    &__chart-value-y,
+    &__inout-value-y {
+      width: 14px;
+    }
+
+    &__chart-value-y-max,
+    &__chart-value-y-min,
+    &__inout-value-y-max,
+    &__inout-value-y-min {
+      position: relative;
+      left: 14px;
+      font-size: 14px;
+      line-height: 14px;
+      transform: rotateZ(90deg);
+      transform-origin: top left;
+    }
+
+    &__chart-month-list {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    &__chart-bar-list,
+    &__inout-bar-list {
+      grid-template-columns: repeat(6, 1fr);
+      column-gap: 16px;
+    }
+
+    &__chart-bar-list > div:nth-child(1),
+    &__chart-bar-list > div:nth-child(2),
+    &__chart-bar-list > div:nth-child(3),
+    &__chart-bar-list > div:nth-child(4),
+    &__chart-bar-list > div:nth-child(5),
+    &__chart-bar-list > div:nth-child(6),
+    &__inout-bar-list > div:nth-child(1),
+    &__inout-bar-list > div:nth-child(2),
+    &__inout-bar-list > div:nth-child(3),
+    &__inout-bar-list > div:nth-child(4),
+    &__inout-bar-list > div:nth-child(5),
+    &__inout-bar-list > div:nth-child(6) {
+      display: none;
+    }
+
+    &__chart-month-list > div:nth-child(1),
+    &__chart-month-list > div:nth-child(2),
+    &__chart-month-list > div:nth-child(3),
+    &__chart-month-list > div:nth-child(4),
+    &__chart-month-list > div:nth-child(5),
+    &__chart-month-list > div:nth-child(6),
+    &__inout-month-list > div:nth-child(1),
+    &__inout-month-list > div:nth-child(2),
+    &__inout-month-list > div:nth-child(3),
+    &__inout-month-list > div:nth-child(4),
+    &__inout-month-list > div:nth-child(5),
+    &__inout-month-list > div:nth-child(6) {
+      display: none;
+    }
+
+    &__table-header-cell-mob {
+      padding: 8px;
+    }
+
+    &__table-header-cell-mob_left {
+      border-top-left-radius: 7px;
+      border-bottom-left-radius: 7px;
+      font-size: 14px;
+      line-height: 100%;
+      text-align: center;
+    }
+
+    &__table-header-cell-mob_right {
+      border-top-right-radius: 7px;
+      border-bottom-right-radius: 7px;
+      font-size: 14px;
+      line-height: 100%;
+      text-align: center;
+    }
+
+    &__table-body-cell-mob {
+      padding: 4px;
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    &__table-body-cell_count-mob-title,
+    &__table-body-cell_sum-mob-date {
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+
+  .currency {
+    &__container {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+
+    &__title {
+      margin-bottom: 24px;
+    }
+
+    &__data {
+      gap: 16px;
+    }
+
+    &__mycurrency,
+    &__rate,
+    &__exchange {
+      padding: 16px;
+    }
+
+    &__title-small {
+      margin-bottom: 8px;
+    }
+
+    &__exchange-form {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__exchange-select-option,
+    &__exchange-select,
+    &__exchange-input {
+      font-size: 14px;
+      line-height: 100%;
+    }
+
+    &__exchange-select-label,
+    &__exchange-input-label {
+      margin-bottom: 4px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 100%;
+    }
+
+    &__exchange-inputs {
+      margin-bottom: 24px;
+      margin-right: 0;
+      flex-wrap: wrap;
+      row-gap: 24px;
+    }
+
+    &__exchange-select-wrapper {
+      width: calc((100% - 20px) /2);
+    }
+
+    &__exchange-select,
+    &__exchange-select-list {
+      width: 100%;
+    }
+
+    &__exchange-btn {
+      min-width: 100%;
+      padding: 12px 0;
+    }
+
+    &__exchange-error {
+      width: 100%;
+      left: 0;
+      font-size: 14px;
+      line-height: 100%;
+    }
+
+    &__mycurrency-item:not(:last-child) {
+      margin-bottom: 8px;
+    }
+
+    &__rate-item-currency,
+    &__mycurrency-item-name,
+    &__mycurrency-item-amount,
+    &__rate-item-value {
+      font-size: 16px;
+      line-height: 100%;
+    }
+
+    &__mycurrency-item-dote,
+    &__rate-item-dote {
+      margin: 0 4px;
+    }
+
+    &__rate-list {
+      row-gap: 8px;
+    }
+
+    &__rate-item-value-num {
+      margin-right: 4px;
+    }
+  }
+}
